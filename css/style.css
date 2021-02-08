@@ -13,6 +13,12 @@ h3{
   color: #000;
   margin: 25px 0;
 }
+h4{
+  font-size: 30px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
 .header__top{
   font-size: 10px;
 }
@@ -30,6 +36,9 @@ h3{
 }
 .bg__grey{
   background-color: #fafafa;
+}
+.mb_30{
+  margin-bottom: 30px;
 }
 /* mix */
 
@@ -188,6 +197,25 @@ h3{
   color: #000;
   text-decoration: none;
 }
+.box__plans__small{
+  padding: 50px 30px;
+  height: 600px;
+}
+.box__plans__small img{
+  width: 100%;
+}
+.small__left{
+  background-color: #50c7f4;
+}
+.small__right{
+  background-color: #ffd310;
+}
+@media screen and (max-width:1024px){
+  .box__plans__small{
+    padding: 50px 30px;
+    height: 500px;
+  }
+}
 @media screen and (max-width:992px) {
   .plans__box{
     width: 100%;
@@ -198,6 +226,16 @@ h3{
   }
   .plans__right{
     right: 0;
+  }
+  .box__plans__small{
+    padding: 50px 30px;
+    height: 400px;
+  }
+}
+@media screen and (max-width:768px){
+  .box__plans__small{
+    padding: 50px 30px;
+    height: 350px;
   }
 }
 /* section plans */
