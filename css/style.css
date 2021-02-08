@@ -17,6 +17,13 @@ h1{
   font-size: 14px;
 }
 /* typo */
+/* mix */
+.container__banner{
+  max-width: 900px;
+  margin: auto;
+}
+/* mix */
+
 /* btn */
 .btn__second__nav,
 .btn__second__nav:hover{
@@ -80,3 +87,65 @@ h1{
 
 }
 /* /header */
+/* main */
+#banner{
+  position: relative;
+}
+.box__banner{
+  padding-top: 200px;
+}
+.bg__banner{
+  position: absolute;
+  background-image: url('../img/banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+}
+.box{
+  position: relative;
+  display: inline-block;
+  width: calc(100% / 3);
+}
+.box-left{
+  left: calc(100% / 3) ;
+}
+.box-center{
+  right: calc(100% / 3) ;
+  vertical-align: bottom;
+  padding-bottom: 150px;
+}
+.box-right{
+  vertical-align: bottom;
+  padding-left: 40px;
+  padding-bottom: 150px;
+}
+.box-left img{
+  width: 100%;
+  max-width: 300px;
+}
+@media screen and (max-width: 992px) {
+  .box__banner{
+    padding-left: 20px;
+  }
+  .box{
+    width: 100%;
+  }
+  .box-left{
+    text-align: center;
+    left: 0;
+  }
+  .box-center{
+    right: 0;
+    padding-bottom: 0;
+  }
+  .box-right{
+    padding: 0;
+    padding-bottom: 0;
+  }
+
+}
+/* /main */
+/* footer */
+
+/* /footer */
