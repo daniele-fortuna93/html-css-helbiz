@@ -2,5 +2,67 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 /* typo */
-
+.header__top{
+  font-size: 10px;
+}
+.main__nav{
+  text-transform: uppercase;
+}
+.btn__second__nav{
+  font-size: 14px;
+}
 /* typo */
+/* btn */
+.btn__second__nav,
+.btn__second__nav:hover{
+  background-color: #000;
+  color: #fff;
+}
+.btn__ham{
+  line-height: normal;
+  background-color: transparent
+}
+/* btn */
+/* header */
+.header__top{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  line-height: 80px;
+  background-color: #fff;
+}
+.header__top__img{
+  height: 15px;
+}
+.header__top ul{
+  margin-bottom: 0;
+}
+.main__nav,
+.second__nav,
+.main__nav li,
+.second__nav li{
+  display: inline-block;
+  vertical-align: middle;
+}
+.main__nav li{
+  margin-left: 25px;
+}
+.main__nav li a{
+  color: #000;
+}
+.header__top a:hover,
+.header__top a{
+  text-decoration: none;
+}
+.lang{
+  background-color: transparent;
+  margin-right: 10px;
+  border: none;
+  border-left: 1px solid #9b9b9b;
+  border-right: 1px solid #9b9b9b;
+  color: #000;
+  line-height: normal;
+}
+/* /header */

@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <!-- /font awesome -->
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
@@ -16,7 +19,36 @@
   <body>
     <!-- intestazione -->
     <header>
+      <div class="header__top">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-2">
+              <img class="header__top__img"src="img/logo.svg" alt="">
+            </div>
+            <div class="col-xs-10 text-right">
+              <div class="main__nav visible-md-inline-block visible-lg-inline-block">
+                <ul>
+                  <li><a href="#">mobilità</a></li>
+                  <li><a href="#">Helbiz kitchen</a></li>
+                  <li><a href="#">my helbiz</a></li>
+                  <li><a href="#">unlimited</a></li>
+                  <li><a href="#">chi siamo</a></li>
+                </ul>
+              </div>
+              <div class="second__nav visible-md-inline-block visible-lg-inline-block">
+                <ul>
+                  <li><button class="lang" type="button" name="button">ITA</button></li>
+                  <li><a class="btn btn__second__nav" href="#">Login</a></li>
+                </ul>
+              </div>
+              <button class="btn btn__ham hidden-md hidden-lg"type="button" name="button"><i class="fas fa-bars"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__jumbotron">
 
+      </div>
     </header>
     <!-- /intestazione -->
     <!-- corpo della pagina -->
@@ -26,7 +58,7 @@
     <!-- /corpo della pagina -->
     <!-- footer -->
     <footer>
-      
+
     </footer>
     <!--  /footer -->
   </body>
