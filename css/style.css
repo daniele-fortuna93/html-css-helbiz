@@ -7,6 +7,12 @@ h1{
   font-weight: 600;
   color: #000;
 }
+h3{
+  font-size: 45px;
+  font-weight: 600;
+  color: #000;
+  margin: 25px 0;
+}
 .header__top{
   font-size: 10px;
 }
@@ -21,6 +27,9 @@ h1{
 .container__banner{
   max-width: 900px;
   margin: auto;
+}
+.bg__grey{
+  background-color: #fafafa;
 }
 /* mix */
 
@@ -88,6 +97,7 @@ h1{
 }
 /* /header */
 /* main */
+/* section banner */
 #banner{
   position: relative;
 }
@@ -125,6 +135,9 @@ h1{
   max-width: 300px;
 }
 @media screen and (max-width: 992px) {
+  h1{
+    font-size: 70px;
+  }
   .box__banner{
     padding-left: 20px;
   }
@@ -145,7 +158,47 @@ h1{
   }
 
 }
+/* section banner */
+/* section plans */
+#plans{
+  padding-top: 30px;
+}
+.plans__box{
+  position: relative;
+  display: inline-block;
+  width: 49%;
+  padding: 25px;
+}
+.plans__left{
+  left: 49%;
+}
+.plans__right{
+  right: 49%;
+}
+.plans__logo{
+  width: 60%;
+}
+.plans__box p{
+  margin: 25px 0;
+  font-size: 24px;
+  color: #000;
+}
+.plans__box a,
+.plans__box a:hover{
+  color: #000;
+  text-decoration: none;
+}
+@media screen and (max-width:992px) {
+  .plans__box{
+    width: 100%;
+    padding: 25px;
+  }
+  .plans__left{
+    left: 0;
+  }
+  .plans__right{
+    right: 0;
+  }
+}
+/* section plans */
 /* /main */
-/* footer */
-
-/* /footer */
